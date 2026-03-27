@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instructivos – Estudiantes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-main">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-logo">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none">
+              <rect width="42" height="42" rx="10" fill="rgba(255,255,255,0.15)"/>
+              <path d="M10 13h22M10 21h22M10 29h14" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+              <circle cx="33" cy="29" r="6" fill="#F5A623"/>
+              <path d="M31 29h4M33 27v4" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">INSTRUCTIVOS</span>
+            <span class="brand-sub">Centro de Ayuda Institucional</span>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap">
+          <span class="profile-badge" style="background:rgba(111,66,193,.7)">📚 Estudiantes</span>
+          <div id="stats-bar" class="stats-bar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="header-tagline">
+      <div class="header-inner">
+        <p>Selecciona el instructivo que deseas consultar. Todos los contenidos se actualizan automáticamente.</p>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <div class="search-wrap" id="searchWrap" style="display:none">
+    <div class="search-box">
+      <span>🔍</span>
+      <input type="text" id="searchInput" placeholder="Buscar instructivo…"/>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="container" id="appRoot">
+      <div class="loading">Cargando instructivos…</div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Instructivos – Estudiantes · Control Academic &amp; Sian 365</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
