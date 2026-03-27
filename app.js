@@ -1,17 +1,26 @@
-// ✏️ EDITA AQUÍ LOS DATOS DE ESTUDIANTES
+// ✏️ EDITA AQUÍ LOS DATOS DE PADRES
 const DATA = [
-  { "id":"e-web-01","nombre":"Ingreso al Aula Virtual","categoria":"Estudiantes","plataforma":"Web","link":"https://canva.link/aula-virtual-estudiante","descripcion":"Cómo ingresar al aula virtual desde el navegador" },
-  { "id":"e-web-02","nombre":"Consulta de calificaciones","categoria":"Estudiantes","plataforma":"Web","link":"https://canva.link/calificaciones-estudiante","descripcion":"Ver tus notas y boletín de calificaciones" },
-  { "id":"e-web-03","nombre":"Agenda Virtual","categoria":"Estudiantes","plataforma":"Web","link":"https://canva.link/agenda-estudiante-web","descripcion":"Consulta de tareas y fechas importantes" },
-  { "id":"e-web-04","nombre":"Elecciones estudiantiles","categoria":"Estudiantes","plataforma":"Web","link":"https://canva.link/elecciones-estudiantes","descripcion":"Votación para el gobierno escolar" },
-  { "id":"e-web-05","nombre":"Comunicaciones","categoria":"Estudiantes","plataforma":"Web","link":"https://canva.link/comunicaciones-estudiante","descripcion":"Mensajes y circulares de la institución" },
-  { "id":"e-app-01","nombre":"Aula Virtual App","categoria":"Estudiantes","plataforma":"App","link":"https://canva.link/aula-virtual-estudiante-app","descripcion":"Acceso a clases y tareas desde el móvil" },
-  { "id":"e-app-02","nombre":"Reporte de Notas","categoria":"Estudiantes","plataforma":"App","link":"https://canva.link/notas-estudiante-app","descripcion":"Consulta tus calificaciones en tiempo real" },
-  { "id":"e-app-03","nombre":"Agenda Virtual","categoria":"Estudiantes","plataforma":"App","link":"https://canva.link/agenda-estudiante-app","descripcion":"Tareas, actividades y recordatorios" },
-  { "id":"e-app-04","nombre":"Comunicaciones","categoria":"Estudiantes","plataforma":"App","link":"https://canva.link/comunicaciones-estudiante-app","descripcion":"Notificaciones y mensajes escolares" },
-  { "id":"e-app-05","nombre":"Enfermería","categoria":"Estudiantes","plataforma":"App","link":"https://canva.link/enfermeria-estudiante","descripcion":"Registro de novedades de salud" }
+  { "id":"p-web-01","nombre":"Ingreso a la plataforma Control Academic","categoria":"Padres","plataforma":"Web","link":"https://canva.link/control-academic","descripcion":"Cómo acceder por primera vez a Control Academic" },
+  { "id":"p-web-02","nombre":"Ingreso a la plataforma Sian 365","categoria":"Padres","plataforma":"Web","link":"https://canva.link/sian365","descripcion":"Guía de acceso a Sian 365 desde el navegador" },
+  { "id":"p-web-03","nombre":"Agenda Virtual","categoria":"Padres","plataforma":"Web","link":"https://canva.link/agenda-virtual-web","descripcion":"Consulta y gestión de la agenda escolar" },
+  { "id":"p-web-04","nombre":"PQRS","categoria":"Padres","plataforma":"Web","link":"https://canva.link/pqrs","descripcion":"Peticiones, quejas, reclamos y sugerencias" },
+  { "id":"p-web-05","nombre":"Comunicaciones","categoria":"Padres","plataforma":"Web","link":"https://canva.link/comunicaciones-web","descripcion":"Envío y recepción de mensajes institucionales" },
+  { "id":"p-web-06","nombre":"Tesorería","categoria":"Padres","plataforma":"Web","link":"https://canva.link/tesoreria-web","descripcion":"Consulta de estado de cuenta y pagos" },
+  { "id":"p-web-07","nombre":"Reportes – Boletín Promocional","categoria":"Padres","plataforma":"Web","link":"https://canva.link/boletin-promocional","descripcion":"Descarga del boletín promocional" },
+  { "id":"p-web-08","nombre":"Reportes mi boletín","categoria":"Padres","plataforma":"Web","link":"https://canva.link/mi-boletin","descripcion":"Visualización del boletín de calificaciones" },
+  { "id":"p-web-09","nombre":"Aula Virtual","categoria":"Padres","plataforma":"Web","link":"https://canva.link/aula-virtual-padres-web","descripcion":"Acceso al entorno de aprendizaje virtual" },
+  { "id":"p-web-10","nombre":"Elecciones","categoria":"Padres","plataforma":"Web","link":"https://canva.link/elecciones","descripcion":"Elecciones del consejo de padres" },
+  { "id":"p-web-11","nombre":"Agendamiento de citas","categoria":"Padres","plataforma":"Web","link":"https://canva.link/citas","descripcion":"Solicitud de citas con docentes y directivos" },
+  { "id":"p-app-12","nombre":"Compras y preventa","categoria":"Padres","plataforma":"App","link":"https://canva.link/compras-preventa","descripcion":"Adquisición de útiles y uniformes desde la app" },
+  { "id":"p-app-13","nombre":"Enfermería","categoria":"Padres","plataforma":"App","link":"https://canva.link/enfermeria","descripcion":"Registro y seguimiento de novedades de salud" },
+  { "id":"p-app-14","nombre":"Aula Virtual","categoria":"Padres","plataforma":"App","link":"https://canva.link/aula-virtual-padres-app","descripcion":"Aula virtual desde el dispositivo móvil" },
+  { "id":"p-app-15","nombre":"Tesorería","categoria":"Padres","plataforma":"App","link":"https://canva.link/tesoreria-app","descripcion":"Pagos y estado de cuenta desde la app" },
+  { "id":"p-app-16","nombre":"Comunicaciones","categoria":"Padres","plataforma":"App","link":"https://canva.link/comunicaciones-app","descripcion":"Circulares y mensajes en la app" },
+  { "id":"p-app-17","nombre":"Reporte de Notas","categoria":"Padres","plataforma":"App","link":"https://canva.link/reporte-notas-app","descripcion":"Consulta de calificaciones en tiempo real" },
+  { "id":"p-app-18","nombre":"Agenda Virtual","categoria":"Padres","plataforma":"App","link":"https://canva.link/agenda-virtual-app","descripcion":"Actividades y fechas importantes" },
+  { "id":"p-app-19","nombre":"Enviar excusa","categoria":"Padres","plataforma":"App","link":"https://canva.link/excusa","descripcion":"Registro de inasistencias y justificaciones" }
 ];
-const SINGLE_CAT = "Estudiantes";
+const SINGLE_CAT = "Padres";
 
 // =========================================
 // NO EDITAR DEBAJO DE ESTA LÍNEA
